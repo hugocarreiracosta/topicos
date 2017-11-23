@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('sobre', 'sobreController@GetSobre'); 
+
+Route::get('contato', 'contatoController@GetContato');

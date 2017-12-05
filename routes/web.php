@@ -18,3 +18,10 @@ Route::get('/', function () {
 Route::get('sobre', 'sobreController@GetSobre'); 
 
 Route::get('contato', 'contatoController@GetContato');
+
+Route::get('/alunos' , function(){
+
+    $alunos = DB::table('alunos')->get();
+
+    return view('alunos', compact('alunos'));
+});

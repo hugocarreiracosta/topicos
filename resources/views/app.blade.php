@@ -107,6 +107,7 @@
             <li><a href="/">Inicio</a></li>
             <li><a href="sobre">Sobre</a></li>
             <li><a href="contato">Contato</a></li>
+            <li><a href="alunos">Alunos</a></li>
         </ul>
    @show
 
@@ -115,6 +116,6 @@
 
     </div>
 
-
+        @yield('footer')
     </body>
 </html>

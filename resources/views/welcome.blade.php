@@ -18,6 +18,7 @@
         </div>
     @stop
 
+@section('footer')
 <footer>
     @component('mensagem')
         @slot('titulo')
@@ -31,3 +32,4 @@
     @endcomponent
 
 </footer>
+@stop
